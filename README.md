@@ -1,32 +1,32 @@
-# Mining Tool – von Lina und Execute
+# Mining Tool – by Lina and Execute
 
 **© 2026 DulinaX & Execute**
 
-Ein kleines Windows-Tool für **Star Citizen**: Es liest die Mining-Signatur-Zahl vom Bildschirm und zeigt sofort, **welches Erz** es ist und **wie viele Steine** dort liegen – dazu ein Erz-Finder mit Orten, Chancen und Schwerkraft.
+A small Windows tool for **Star Citizen**: it reads the mining signature number from your screen and instantly shows **which ore** it is and **how many rocks** are there – plus an ore finder with locations, chances and gravity.
 
 ## ⬇️ Download
 
-1. Oben in der Dateiliste auf **`MiningTool.exe`** klicken.
-2. Rechts auf **„Download raw file“** (Pfeil-Symbol) klicken.
-3. Die heruntergeladene **MiningTool.exe** doppelklicken – keine Installation, kein Entpacken.
+1. Click **`MiningTool.exe`** in the file list above.
+2. Click **"Download raw file"** (the download arrow icon) on the right.
+3. Double-click the downloaded **MiningTool.exe** – no installation, no unzipping.
 
-> Windows zeigt evtl. „Der Computer wurde durch Windows geschützt“ → **Weitere Informationen → Trotzdem ausführen**.
+> Windows may show "Windows protected your PC" → click **More info → Run anyway**.
 
-## Lizenz
+## License
 
-Beim ersten Start fragt das Tool nach einem **Lizenz-Code** → einfügen → **Activate**.
-Jeder Code gilt für **einen PC**. Zum Aktivieren einmal Internet nötig, danach läuft das Tool offline.
+On first start the tool asks for a **license code** → paste it → **Activate**.
+Each code works on **one PC**. Activation needs an internet connection once; after that the tool runs offline.
 
-## Sicherheit
+## Safety
 
-- Liest **nur die Bildschirm-Pixel** im gewählten Rahmen (wie ein Screenshot).
-- Öffnet **keine Spieldateien**, liest **keinen Spielspeicher**, schickt **keine Eingaben** ans Spiel.
+- Reads **only the screen pixels** inside the box you select (like a screenshot).
+- Never opens game files, never reads game memory, never sends any input to the game.
 
-## Voraussetzungen
+## Requirements
 
-- Windows 10/11, 64 Bit
-- Startet die Texterkennung nicht: kostenloses **Microsoft Visual C++ 2015–2022 Redistributable (x64)** installieren.
-- Star Citizen im Modus **Rahmenlos** oder **Fenster** spielen.
+- Windows 10/11, 64-bit
+- If text recognition does not start: install the free **Microsoft Visual C++ 2015–2022 Redistributable (x64)**.
+- Play Star Citizen in **Borderless** or **Windowed** mode.
 
 ---
-Inoffizielles Fan-Tool. Star Citizen ist eine Marke von Cloud Imperium Rights LLC.
+Unofficial fan tool. Star Citizen is a trademark of Cloud Imperium Rights LLC.
