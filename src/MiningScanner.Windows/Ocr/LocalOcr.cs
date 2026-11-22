@@ -21,7 +21,7 @@ public sealed class LocalOcr : IOcrEngine
     private bool _disposed;
 
     /// <summary>
-    /// Exi &amp; Lina: Schneller Abbruch. Liefert eine Bildvariante eine sichere Zahl, für die diese Prüfung "true" ergibt
+    /// Schneller Abbruch. Liefert eine Bildvariante eine sichere Zahl, für die diese Prüfung "true" ergibt
     /// (z. B. "passt zur Erz-Liste"), werden die restlichen Varianten übersprungen.
     /// </summary>
     public Func<int, bool>? AcceptEarly { get; set; }
@@ -93,7 +93,7 @@ public sealed class LocalOcr : IOcrEngine
         var candidates = readings.Where(x => x.Value.HasValue).Select(x => (x.Value!.Value, x.Confidence)).ToList();
         cancellation.ThrowIfCancellationRequested();
 
-        // Exi & Lina: Mehrheitsentscheid statt "alle müssen gleich sein".
+        // Mehrheitsentscheid statt "alle müssen gleich sein".
         // Eine sichere Lesung reicht, solange keine andere sichere Lesung widerspricht.
         // Die Tabelle wird weiterhin nie benutzt, um eine Zahl zu "reparieren".
         if (confident.Count == 0)

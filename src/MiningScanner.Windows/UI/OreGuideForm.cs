@@ -1,7 +1,7 @@
 namespace MiningScanner.Windows.UI;
 
 /// <summary>
-/// Exi &amp; Lina: Nachschlage-Fenster "Wo finde ich welches Erz?".
+/// Nachschlage-Fenster "Wo finde ich welches Erz?".
 /// Ansicht "Nach Erz": Seltenheit, Signatur, beste Fundorte, Raffinerie-Bonus.
 /// Ansicht "Nach Ort": alle Orte (Planeten, Monde, Gürtel, Ringe) mit den Erz-Chancen für Schiff, ROC und Handabbau.
 /// Reine Offline-Daten (Quellen: Tabelle von Ironanvil Gaming und scminer.rocks "Ore by Location", Patch 4.10.3).

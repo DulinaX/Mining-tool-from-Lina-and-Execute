@@ -99,7 +99,7 @@ public static class WindowProbe
             if (above == window.Handle) return true;
             if (!visited.Add(above)) return false;
             if (!NativeWindow.IsWindowVisible(above) || NativeWindow.IsIconic(above)) continue;
-            // Exi & Lina: durchsichtige Overlays (NVIDIA, Discord, Steam, eigene Anzeige) blockieren den Scan nicht.
+            // durchsichtige Overlays (NVIDIA, Discord, Steam, eigene Anzeige) blockieren den Scan nicht.
             if (NativeWindow.IsPassiveOverlay(above)) continue;
             if (NativeWindow.DwmGetWindowAttributeInt(above, 14, out int cloaked, sizeof(int)) != 0) return false;
             if (cloaked != 0) continue;

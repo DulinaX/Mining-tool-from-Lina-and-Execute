@@ -38,12 +38,12 @@ try {
             else { Invoke-Dotnet @('run','--project',$path,'-c','Release','--no-build') }
         }
     }
-    $output = Join-Path $projectRoot 'outputs/ExiUndLinaMiningTool-win-x64'
+    $output = Join-Path $projectRoot 'outputs/MiningTool-win-x64'
     if ((Test-Path -LiteralPath $output) -and !(Test-Path -LiteralPath (Join-Path $output '.mining-scanner-output'))) {
         throw "Ausgabeordner existiert ohne Projektmarkierung. Er wird nicht überschrieben: $output"
     }
     New-Item -ItemType Directory -Path $output -Force | Out-Null
-    Set-Content -LiteralPath (Join-Path $output '.mining-scanner-output') -Value 'Exi und Lina Mining Tool build output' -Encoding utf8
+    Set-Content -LiteralPath (Join-Path $output '.mining-scanner-output') -Value 'Mining Tool build output' -Encoding utf8
     $selfContained = if ($FrameworkDependent) { 'false' } else { 'true' }
     Invoke-Dotnet @('restore',$app,'-r','win-x64',"-p:SelfContained=$selfContained",'--configfile','NuGet.Config')
     Invoke-Dotnet @('publish',$app,'-c','Release','-r','win-x64','--self-contained',$selfContained,'-o',$output,'--no-restore','-p:UseSharedCompilation=false','-m:1','-nr:false')
@@ -55,11 +55,11 @@ try {
         Copy-Item -LiteralPath $file.FullName -Destination $output -Force
         Copy-Item -LiteralPath $file.FullName -Destination (Join-Path $output 'x64') -Force
     }
-    foreach ($required in @('ExiUndLinaMiningTool.exe','tessdata/eng.traineddata','data/signatures.json','x64/tesseract50.dll','x64/leptonica-1.82.0.dll')) {
+    foreach ($required in @('MiningTool.exe','tessdata/eng.traineddata','data/signatures.json','x64/tesseract50.dll','x64/leptonica-1.82.0.dll')) {
         if (!(Test-Path -LiteralPath (Join-Path $output $required))) { throw "Unvollständige Ausgabe: $required fehlt" }
     }
     Write-Host 'Datenschutz-Quellcodepruefung: siehe docs/PRIVACY-AUDIT.md.'
-    Write-Host "Fertig: $output/ExiUndLinaMiningTool.exe"
+    Write-Host "Fertig: $output/MiningTool.exe"
 }
 finally {
     if ($SdkPath -and (Test-Path -LiteralPath $SdkPath)) { & $SdkPath build-server shutdown | Out-Null }

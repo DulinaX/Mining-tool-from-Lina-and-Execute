@@ -7,7 +7,7 @@ using MiningScanner.Windows.Platform;
 namespace MiningScanner.Windows.Runtime;
 
 /// <summary>
-/// Exi &amp; Lina: Einfacher Bildschirm-Modus. Liest nur die Pixel im gewählten Rahmen (wie ein Screenshot),
+/// Einfacher Bildschirm-Modus. Liest nur die Pixel im gewählten Rahmen (wie ein Screenshot),
 /// egal welches Fenster vorne ist. Kein Zugriff auf Spieldateien, Spielspeicher oder Eingaben.
 /// </summary>
 internal sealed record CaptureServices(

@@ -44,7 +44,7 @@ try {
     $app = 'src/MiningScanner.Windows/MiningScanner.Windows.csproj'
     $out = Join-Path $root 'outputs\MiningTool-win-x64'
     if (Test-Path -LiteralPath $out) { Remove-Item -LiteralPath $out -Recurse -Force }
-    $share = @('-p:ShareBuild=true', '-p:IntermediateOutputPath=obj\share\', '-p:OutputPath=bin\share\')
+    $share = @('-p:IntermediateOutputPath=obj\share\', '-p:OutputPath=bin\share\')
     Invoke-Dotnet (@('restore', $app, '-r', 'win-x64', '-p:SelfContained=true', '--configfile', 'NuGet.Config') + $share)
     Invoke-Dotnet (@('publish', $app, '-c', 'Release', '-r', 'win-x64', '--self-contained', 'true', '-o', $out, '--no-restore', '-p:UseSharedCompilation=false', '-m:1', '-nr:false') + $share)
 

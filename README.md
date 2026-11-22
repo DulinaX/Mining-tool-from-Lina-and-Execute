@@ -19,25 +19,16 @@ Ein kleines Windows-Tool für **Star Citizen**: Es liest die Mining-Signatur-Zah
 - Schlankes In-Game-Overlay („● Aktiv“ + Erz)
 - Bereich wählen auf eingefrorenem Standbild, damit sich das Schiff dabei nicht dreht
 - Erz-Finder: „Nach Erz“ / „Nach Ort“, inklusive Schwerkraft (G)
-- Deutsch / English
+- English / Deutsch
 - Galaxy-Design mit Animationen
-
-## Zwei Versionen
-
-| Version | Name | Bauen mit | Startsprache |
-|---|---|---|---|
-| Eigene Version | Exi und Lina Mining Tool | `APP BAUEN.cmd` | Deutsch |
-| Zum Weitergeben | Mining Tool | `WEITERGABE BAUEN.cmd` | English |
-
-`WEITERGABE BAUEN.cmd` legt `Mining Tool.zip` auf den Desktop. Die ZIP enthält keine persönlichen Einstellungen.
 
 ## Bauen (Windows 10/11, 64 Bit)
 
 1. Repo herunterladen (grüner Knopf **Code → Download ZIP**) und entpacken.
-2. Doppelklick auf `APP BAUEN.cmd` oder `WEITERGABE BAUEN.cmd`.
+2. Doppelklick auf `MINING TOOL BAUEN.cmd`.
    - Beim ersten Mal wird das .NET SDK 8.0.428 einmalig von Microsoft geladen (nur in den Ordner `work/`, keine Installation).
    - Die NuGet-Pakete kommen aus `vendor/nuget`, falls vorhanden, sonst von nuget.org.
-3. Fertig: Die App liegt auf dem Desktop.
+3. Fertig: Auf dem Desktop liegen der Ordner `Mining Tool (Weitergabe)` und `Mining Tool.zip` zum Verschicken (ohne persönliche Einstellungen). Die App startet auf Englisch, Deutsch ist in den Einstellungen wählbar.
 
 Zum Starten der fertigen App braucht der PC die **Microsoft Visual C++ 2015–2022 Redistributable (x64)**. Auf den meisten Gaming-PCs ist sie schon installiert.
 

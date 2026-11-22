@@ -80,7 +80,7 @@ public sealed class ScannerController : IDisposable
         roi = Rectangle.Empty;
         var r = settings.Region;
         if (r is null) return false;
-        // Exi & Lina: Der Bereich ist relativ gespeichert. Ändert sich die Fenstergröße oder DPI,
+        // Der Bereich ist relativ gespeichert. Ändert sich die Fenstergröße oder DPI,
         // wird er einfach mitskaliert statt eine neue Auswahl zu verlangen.
         int cw = window.ClientBounds.Width, ch = window.ClientBounds.Height;
         if (cw < 100 || ch < 100) return false;
@@ -249,7 +249,7 @@ public sealed class ScannerController : IDisposable
     }
 
     /// <summary>
-    /// Exi &amp; Lina: Abgleich mit der Erz-Liste. Hat die Texterkennung mehrere mögliche Zahlen gelesen,
+    /// Abgleich mit der Erz-Liste. Hat die Texterkennung mehrere mögliche Zahlen gelesen,
     /// wird die genommen, die zu einem Erz aus der Liste passt. Es wird nur aus Zahlen gewählt,
     /// die die Erkennung wirklich gelesen hat – es wird nichts erfunden oder gerundet.
     /// </summary>

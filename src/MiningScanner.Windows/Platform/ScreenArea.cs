@@ -4,7 +4,7 @@ using System.Drawing;
 namespace MiningScanner.Windows.Platform;
 
 /// <summary>
-/// Exi &amp; Lina: Der Scan-Bereich ist der Monitor, auf dem Star Citizen läuft.
+/// Der Scan-Bereich ist der Monitor, auf dem Star Citizen läuft.
 /// Dafür wird nur nachgeschaut, ob ein Prozess "StarCitizen" existiert und auf welchem Monitor sein Fenster ist
 /// (dieselbe Info, die auch der Task-Manager zeigt). Spieldateien, Spielspeicher und Eingaben werden NIE angefasst.
 /// Läuft Star Citizen nicht, wird der Hauptmonitor benutzt.

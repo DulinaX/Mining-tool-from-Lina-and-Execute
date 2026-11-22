@@ -3,7 +3,7 @@ using System.Drawing.Imaging;
 
 namespace MiningScanner.Windows.UI;
 
-// Galaxy-Design für "Exi und Lina Mining Tool": Hintergrund, Glas-Karten und leuchtende Buttons.
+// Galaxy-Design für "Mining Tool": Hintergrund, Glas-Karten und leuchtende Buttons.
 internal static class Galaxy
 {
     public static readonly Color Text = Color.FromArgb(236, 230, 255);
@@ -605,7 +605,7 @@ internal sealed class GlowButton : Button
     }
 }
 
-// ---------- Exi & Lina: Design-Extras ----------
+// ---------- Design-Extras ----------
 
 internal static class GalaxyChrome
 {

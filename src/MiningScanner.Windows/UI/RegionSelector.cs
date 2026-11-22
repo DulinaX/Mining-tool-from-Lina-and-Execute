@@ -11,7 +11,7 @@ namespace MiningScanner.Windows.UI;
 /// Das Fenster holt sich den Fokus (wie Alt-Tab), dadurch bekommt Star Citizen beim Rahmen-Ziehen keine
 /// Mausbewegungen und das Schiff dreht sich nicht. Das Spiel selbst wird nicht verändert und bekommt keine Eingaben.
 /// Das Standbild liegt nur im Arbeitsspeicher und wird beim Schließen gelöscht.
-/// Exi &amp; Lina: Der Rahmen kann überall im Spielfenster und in jede Richtung gezogen werden.
+/// Der Rahmen kann überall im Spielfenster und in jede Richtung gezogen werden.
 /// Zu große Rahmen werden automatisch passend gemacht, statt einen Fehler zu zeigen.
 /// </summary>
 internal sealed class RegionSelector : Form
