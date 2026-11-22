@@ -1,0 +1,55 @@
+﻿MINING TOOL – Star Citizen signature scanner
+© 2026 DulinaX & Execute
+
+START: double-click MiningTool.exe (keep the whole folder, no installation needed)
+1. Select area – drag a tight box around the signature number.
+2. Start scan – shows the number, the ore and the rock count.
+3. Move overlay (optional).
+Extra: "Where do I find which ore?" – ore finder with locations, chances and gravity.
+Language: Settings -> Deutsch / English.
+
+If the app says the text recognition cannot start: install the free
+"Microsoft Visual C++ 2015-2022 Redistributable (x64)" from Microsoft.
+
+The app only reads the screen pixels inside the box. It never opens game files,
+never reads game memory and never sends input to the game. Fully offline.
+
+Lizenz / License: MIT (see LICENSE). Third-party licenses: folder "licenses".
+Star Citizen is a trademark of Cloud Imperium Rights LLC. This is an unofficial fan tool.
+
+-------------------------------------------
+
+MINING TOOL – Star Citizen Signatur-Scanner
+© 2026 DulinaX & Execute
+===========================================
+
+STARTEN: Doppelklick auf MiningTool.exe
+(Den ganzen Ordner behalten – die App braucht die Dateien daneben. Keine Installation nötig.)
+
+1. BEREICH WÄHLEN
+   Klick auf "1  Bereich wählen". Der Monitor, auf dem Star Citizen läuft, wird abgedunkelt.
+   Zieh mit gedrückter linker Maustaste einen Rahmen ENG um die Signatur-Zahl im Scanner.
+   Rechtsklick oder Esc bricht ab.
+
+2. SCAN STARTEN
+   Klick auf "2  Scan starten". Die App zeigt die Zahl, das Erz und die Anzahl Steine.
+   Passt eine Zahl zu mehreren Steinen, stehen alle Möglichkeiten da.
+
+3. OVERLAY VERSCHIEBEN (optional)
+   Die kleine Anzeige "● Aktiv + Erz" liegt über dem Spiel und kann verschoben werden.
+
+EXTRA: "Wo finde ich welches Erz?" – Erz-Finder mit Orten, Chancen und Schwerkraft.
+SPRACHE: Unter "Einstellungen" Deutsch oder English wählen.
+
+Startet die Texterkennung nicht? Dann das kostenlose
+"Microsoft Visual C++ 2015-2022 Redistributable (x64)" von Microsoft installieren.
+
+TIPPS
+- Star Citizen im Modus "Rahmenlos" (Borderless) oder "Fenster" spielen.
+- Das App-Fenster darf die Zahl nicht verdecken.
+
+SICHERHEIT
+Die App liest NUR die Bildschirm-Pixel im gewählten Rahmen (wie ein Screenshot).
+Sie öffnet keine Spieldateien, liest keinen Spielspeicher und schickt keine Eingaben ans Spiel.
+Alles läuft offline – es wird nichts ins Internet gesendet.
+

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sdkVersion": "8.0.428",
+  "runtimeVersion": "8.0.34",
+  "modelSource": "https://github.com/tesseract-ocr/tessdata_fast/tree/4.1.0",
+  "files": [
+    {
+      "path": "vendor/nuget/microsoft.aspnetcore.app.runtime.win-x64.8.0.34.nupkg",
+      "sha256": "c968d893eaf83b68a1cec2765a639ffa2d0df2f765f2fa675dc8234b76ef3493",
+      "size": 12205329
+    },
+    {
+      "path": "vendor/nuget/microsoft.netcore.app.runtime.win-x64.8.0.34.nupkg",
+      "sha256": "8924cfef40729b5e5eb75112146626c0b81e45d29436917d32c311c3f795d205",
+      "size": 36224794
+    },
+    {
+      "path": "vendor/nuget/microsoft.windows.sdk.net.ref.10.0.22621.56.nupkg",
+      "sha256": "bf7856f3af42e111b8cb831207d5a732aff35b8bbda0f71110a8585fac23b904",
+      "size": 9785516
+    },
+    {
+      "path": "vendor/nuget/microsoft.windowsdesktop.app.runtime.win-x64.8.0.34.nupkg",
+      "sha256": "3f522c10d9fd93f42035bfb9ad8ee8300ad8b634c5d00e409bff99dfbcec548f",
+      "size": 36842878
+    },
+    {
+      "path": "vendor/nuget/sharpgen.runtime.2.2.0-beta.nupkg",
+      "sha256": "0e3d1ce219f7fc9971e47e8c5f562f006d89e092fcd04385aaed5da62a5728b1",
+      "size": 293036
+    },
+    {
+      "path": "vendor/nuget/sharpgen.runtime.com.2.2.0-beta.nupkg",
+      "sha256": "d9f038e593e4ec6c93ab992b8a7b4ae6050454ba9a10018f2de880ba4f898a27",
+      "size": 513610
+    },
+    {
+      "path": "vendor/nuget/system.reflection.emit.4.7.0.nupkg",
+      "sha256": "170fc24910fec1a8c7d4ca9f292dd0fec22b507ec63782be17e0f1ebc50f3488",
+      "size": 406832
+    },
+    {
+      "path": "vendor/nuget/tesseract.5.2.0.nupkg",
+      "sha256": "202d82fc7c7d8384df7da57206d5e1f456ccdabd648c46e67cdfaa3a911d4795",
+      "size": 5697774
+    },
+    {
+      "path": "vendor/nuget/vortice.direct3d11.3.6.2.nupkg",
+      "sha256": "cf0ed3d9ee68cf01e473bafb776c75016b606aa3d888d389b3e6f9c38fc403c7",
+      "size": 345493
+    },
+    {
+      "path": "vendor/nuget/vortice.directx.3.6.2.nupkg",
+      "sha256": "985303c812c4c86f24d9ead25c8e4ff70da964fcf2b491995e466cc0c3216db8",
+      "size": 481915
+    },
+    {
+      "path": "vendor/nuget/vortice.dxgi.3.6.2.nupkg",
+      "sha256": "51ed857f0ad5de3bba2d88730e436036026126951c27f6b30e0be41d19df1661",
+      "size": 206991
+    },
+    {
+      "path": "vendor/nuget/vortice.mathematics.1.9.2.nupkg",
+      "sha256": "09a90e436453e8b365843f4c24bb61dcbbf2920bf34e81ef6834825df4e1b3a4",
+      "size": 436234
+    },
+    {
+      "path": "resources/tessdata/eng.traineddata",
+      "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+      "size": 4113088
+    }
+  ]
+}
